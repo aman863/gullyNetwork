@@ -25,6 +25,8 @@ Run npm install to download all the dependencies
 npm install
 ```
 
+
+server.js is the entry point
 ## Usage
 
 Upload data from a file to the database.
