@@ -44,11 +44,13 @@ To run the API in development environment
 ```
 npm run start
 ```
-open your browser to localhost:3000
+
 In production environment
 ```
 npm run start:prod
 ```
+
+open your browser to localhost:3000
 ## Testing the API
 
 #Post a transaction
