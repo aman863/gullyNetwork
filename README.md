@@ -17,7 +17,7 @@ DATABASE=*Your mongoDb key*
 DATABASE_PASSWORD=*Your mongoDb password*
 ## Installation
 
-Clone or download the repository
+Clone or download the repository 
 
 Run npm install to download all the dependencies
 
@@ -44,7 +44,7 @@ To run the API in development environment
 ```
 npm run start
 ```
-
+open your browser to localhost:3000
 In production environment
 ```
 npm run start:prod
