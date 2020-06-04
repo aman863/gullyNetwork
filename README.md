@@ -53,7 +53,7 @@ npm run start:prod
 open your browser to localhost:3000
 ## Testing the API
 
-#Post a transaction
+#POST A TRANSACTION
 
 Hit the url /transactions with a post request
 
@@ -72,7 +72,7 @@ Amount is negative for expense and positive for income.
 
 Allowed categories are "eating_out","groceries","other","salary"
 
-#Get transactions
+#GET TRANSACTIONS
 
 Get filtered transactions, sorted and paginated
 
@@ -88,7 +88,7 @@ By default sorting is in ascending order.Use - in sort to get sorting in descend
 
 Specify page to get the desired and page and limit to get limited transactions on one page
 
-#Get a particular transaction
+#GET A PARTICULAR TRANSACTION
 
 Hit the url /transactions/:transactionId with get request.
 
@@ -98,7 +98,7 @@ Example Url
 GET http://localhost:3000/transactions/158
 ```
 
-#Get monthly net balance
+#GET MONTHLY NET BALANCE
 
 Get monthly net balance for a particular month, monthwise net balance for a particular year or monthly net balance of all time transactions.
 
@@ -123,7 +123,7 @@ For a particular month. Example req.body
 }
 ```
 
-#Get weekly balance
+#GET WEEKLY BALANCE
 
 Get weekly net balance for a particular week, weekly balance for a month , a year or all time transactions
 
@@ -155,7 +155,7 @@ For net balance of a week. Example req.body
 }
 ```
 
-#Get daily balance
+#GET DAILY BALANCE
 
 Get net balance of a particular day or daily net balance of a month.
 
@@ -177,7 +177,7 @@ For net balance of a particular day.Example req.body
 }
 ```
 
-#Get categorywise expenditure
+#GET CATEGORYWISE EXPENDITURE
 
 Get category wise expenditure for a particular day, month ,year or all time transactions.
 
