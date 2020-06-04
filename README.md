@@ -10,11 +10,11 @@ MONGODB
 
 ## .env file
 
-NODE_ENV=<Your environment>
+NODE_ENV=*Your environment*
 
-DATABASE=<Your mongoDb key>
+DATABASE=*Your mongoDb key*
 
-DATABASE_PASSWORD=<Your mongoDb password>
+DATABASE_PASSWORD=*Your mongoDb password*
 ## Installation
 
 Clone or download the repository
